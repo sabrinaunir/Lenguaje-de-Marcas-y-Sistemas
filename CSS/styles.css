@@ -1,0 +1,146 @@
+#index {
+    
+    color: white;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+   }
+
+    .logo {
+    display: block;
+    margin: 20px auto;
+    width: auto;
+    height: auto;
+    border: none;
+   }
+
+   .poster {
+    display: block;
+    margin: 20px auto;
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+   }
+
+   .texto {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    }
+    @font-face {
+    font-family: 'BreakingBad';
+    src: url('Breaking Bad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+   #tabla
+    {
+        background-image: none !important;
+        background-color: #3d5c1f;
+        background-color: #3d5c1f;
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        color: #f0e68c;
+    }
+
+
+    .tabla-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: auto;
+    }
+
+    th, td {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid #2b2c24;
+    }
+
+    th {
+        background-color: darkgreen;
+        color: white;
+    }
+
+    td {
+        background-color: lightgreen;
+    }
+
+    .oscuro {
+        background-color: #1a1a1a;
+    }
+
+    .especial {
+        background-color: #f0e68c;
+        color: black;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        margin-top: 20px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+
+    }
+    .verde-claro1 { background-color: #b8d725; }
+    .verde-claro2 { background-color: #d5e87c; }
+    .verde-claro3 { background-color: #c5e440; } 
+    .verde-oscuro { background-color: #637122; }
+    .negro { background-color: #2b2c24; }
+    .morado { background-color: #ab8fcc; }
+    .gris { background-color: #bcc49f; } 
+    .beige { background-color: #eff6cd; } 
+    .verde-oscuro2 { background-color: #637126; }
+    .verde-oscuro3 { background-color: #89a419; } 
+    .verde-oscuro4 { background-color: #808c4a; }
+    .verde-claro4 { background-color: #cddc8a; }  
+    .verde-claro5 { background-color: #d5e67f; }
+    .verde-claro6 { background-color: #c2c629; }
+    .celda-degradado {
+     background: linear-gradient(to right, #b8d725 50%, #eff6cd 50%);
+    color: white;
+    }
+    .celda-con-imagen {
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    font-weight: bold;
+    color: black; 
+    }
+    .nombre {
+font-size: 7px; 
+display: inline-block;
+color: black;
+}
+.nombre::first-letter {
+font-size: 30px;
+}
+.nombre-doble {
+font-size: 7px;
+display: inline-block;
+color: black;
+}
+.dos-letras {
+font-size: 30px;
+} 
